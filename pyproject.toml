@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "pythonbytes"
-version = "0.1.1"
+version = "0.1.3"
 description = "PythonBytes ep. #239 said so..."
 authors = ["Scott Stoltzman <stoltzmaniac@gmail.com>"]
+homepage = "https://github.com/stoltzmaniac/pythonbytes"
+repository = "https://github.com/stoltzmaniac/pythonbytes"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -13,3 +16,4 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
