@@ -1,7 +1,7 @@
 # PythonBytes
 
 
-A great podcast. A terrible python package.
+A great podcast https://pythonbytes.fm/ . A terrible python package.
 
 ```
 pip install pythonbytes
